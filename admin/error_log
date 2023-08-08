@@ -1,0 +1,24 @@
+[06-Aug-2023 12:46:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/admin/produk.php(2): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 14:17:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/admin/produk.php(2): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[07-Aug-2023 05:45:07 UTC] PHP Warning:  move_uploaded_file(img/pus.jpeg): Failed to open stream: No such file or directory in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 05:45:07 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpE0h81X' to 'img/pus.jpeg' in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 05:47:35 UTC] PHP Warning:  move_uploaded_file(img/meo.jpg): Failed to open stream: No such file or directory in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 05:47:35 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phplkozWH' to 'img/meo.jpg' in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 05:48:54 UTC] PHP Warning:  move_uploaded_file(img/excell.jpeg): Failed to open stream: No such file or directory in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 05:48:54 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpAWamQq' to 'img/excell.jpeg' in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 05:53:49 UTC] PHP Warning:  move_uploaded_file(img/titip.jpg): Failed to open stream: No such file or directory in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 05:53:49 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpFdYUvU' to 'img/titip.jpg' in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 05:59:44 UTC] PHP Warning:  move_uploaded_file(img/grooming.jpg): Failed to open stream: No such file or directory in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 05:59:44 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php6BXK32' to 'img/grooming.jpg' in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 06:06:11 UTC] PHP Warning:  move_uploaded_file(img/kesehatan.webp): Failed to open stream: No such file or directory in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25
+[07-Aug-2023 06:06:11 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php1qetbg' to 'img/kesehatan.webp' in /home/tiamyid/hijrah.ti6a.my.id/admin/tambah_produk.php on line 25

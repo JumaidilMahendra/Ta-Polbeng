@@ -1,0 +1,146 @@
+/* Basic styles for the navbar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  
+}
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(to right, #c18ef1, #21bfbf);  
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo img {
+  /* height: 50px;  */
+  /* margin-left: 50px; */
+  /* margin-right: 500px; */
+  width: 100px;
+  height: auto;
+  /*text-decoration: none;*/
+  /*color: rgb(173, 168, 168);*/
+  /*font-weight: bold;*/
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-right: 20px;
+  margin-left: 500px;
+}
+
+.menu li {
+  margin-left: 10px;
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background-color: rgb(5, 15, 117);
+  border-radius: 5px;
+}
+
+.menu-toggle {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  display: none; /* Menyembunyikan menu toggle di layar lebar */
+}
+.sidebar {
+  display: none;
+}
+
+.sidebar-toggle{
+    display: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+}
+
+/* Saat mouse hover atau elemen aktif */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style untuk link dropdown */
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsif CSS */
+@media screen and (max-width: 768px) {
+  .menu {
+      display: none; /* Menyembunyikan menu di layar kecil */
+  }
+
+  .menu-toggle {
+    display: block; /* Tampilkan menu toggle di layar kecil */
+  }
+
+  .sidebar.active {
+      display: flex; /* Menampilkan menu di layar kecil ketika tombol toggle aktif */
+      flex-direction: column;
+      background-color: rgb(233, 233, 233);
+      position: absolute;
+      top: 60px; /* Sesuaikan dengan ukuran tinggi navbar Anda */
+      right: 40px;
+      width: 150px;
+      border-radius: 5px;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .sidebar li {
+      margin: 10px 0;
+      text-align: center;
+      
+  }
+
+  .sidebar-toggle {
+      display: block; /* Menampilkan menu toggle di layar kecil */
+      margin-right: 50px;
+  }
+
+  .sidebar-toggle.active {
+      background-color: #555;
+      border-radius: 5px;
+  }
+}

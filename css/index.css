@@ -1,0 +1,133 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Style for the content section */
+.content {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px
+}
+
+
+/* Styles for the card container */
+.card-container {
+    display: flex;
+    overflow-x: scroll;
+    /* Atur lebar dan tinggi sesuai kebutuhan */
+    width: 100%;
+    height: 300px;
+    /* Atur jarak antar card */
+    gap: 20px;
+    /* Memastikan semua card berada dalam satu baris */
+    white-space: nowrap;
+}
+
+
+.card {
+    background-color: #f2f2f2;
+    padding: 10px;
+    /* margin: 100px; */
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Atur lebar sesuai preferensi Anda */
+    height: 200px; /* Atur tinggi sesuai preferensi Anda */
+    flex: 0 0 300px; 
+    margin-right: 10px;
+}
+
+.mycard {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+/* .card p {
+    font-size: 14px;
+
+} */
+
+.card .btn {
+    display: inline-block;
+    background-color: #fafcfd;
+    color: rgb(8, 1, 1);
+    padding: 8px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    /* Styles for small screens */
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .card {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card-container {
+        display: flex;
+        overflow-x: scroll;
+        /* Atur lebar dan tinggi sesuai kebutuhan */
+        width: 100%;
+        height: 300px;
+        /* Atur jarak antar card */
+        gap: 20px;
+        /* Memastikan semua card berada dalam satu baris */
+        white-space: nowrap;
+    }
+
+    .card {
+    width: 20px; /* Atur lebar sesuai preferensi Anda */
+    height: 20px; /* Atur tinggi sesuai preferensi Anda */
+    }
+
+    /* Styles for extra small screens */
+    .content h1 {
+        font-size: 18px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .card h2 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .card .btn {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,109 @@
+/* CSS for responsive body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 1000px;
+    /* Ubah ukuran container sesuai kebutuhan Anda */
+    margin-left: 250px;
+    /* Mengatur margin menjadi auto untuk membuatnya berada di tengah */
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    color: #f2f2f2;
+    background-image: linear-gradient( to left,  rgba(4,29,55,1) -0.1%, rgba(2,67,135,1) 25.1%, rgba(28,133,243,1) 49.6%, rgba(115,181,250,1) 74.5%, rgba(214,239,253,1) 99.3% );
+}
+/* CSS for responsive table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.aksi a {
+    text-decoration: none;
+}
+
+.aksi td a {
+    text-decoration: none;
+}
+
+/* CSS for responsive "Tambah Data" button */
+.tombol-tambah {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: center;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient( to left,  rgba(4,29,55,1) -0.1%, rgba(2,67,135,1) 25.1%, rgba(28,133,243,1) 49.6%, rgba(115,181,250,1) 74.5%, rgba(214,239,253,1) 99.3% );
+}
+
+.tombol-tambah:hover {
+    background-color: #f3faf3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Atur tampilan pada kolom-kolom tertentu atau semua kolom */
+    th {
+        display: none;
+    }
+
+    /* Atur warna latar belakang untuk membedakan baris */
+    tr {
+        margin-bottom: 10px;
+    }
+
+    td {
+        /* Ganti padding agar tampilan lebih baik pada perangkat seluler */
+        padding: 6px;
+        /* Tambahkan padding kiri untuk tampilan gambar pada perangkat seluler */
+        padding-left: 120px;
+        /* Atur tampilan kolom berdasarkan nama kelas CSS atau atribut data- */
+        /* Misalnya, agar kolom dengan kelas "gambar" tampil dengan gambar pada perangkat seluler */
+    }
+
+    /* Atur warna latar belakang untuk membedakan baris */
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .tombol-tambah {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+

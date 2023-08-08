@@ -1,0 +1,121 @@
+[06-Aug-2023 11:56:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/produk.php(21): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 11:56:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 11:56:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 11:56:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 12:46:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 12:46:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/makanan.php(23): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 12:46:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/aksesoris.php(23): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 12:46:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/jasa.php(21): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 12:47:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/obat.php(23): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 12:47:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 12:50:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 12:50:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 14:17:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 14:17:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 14:17:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/makanan.php(23): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 14:17:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/aksesoris.php(23): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 14:17:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 14:31:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 14:31:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/index.php(19): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[06-Aug-2023 14:31:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php:8
+Stack trace:
+#0 /home/tiamyid/hijrah.ti6a.my.id/koneksi.php(8): mysqli->__construct()
+#1 /home/tiamyid/hijrah.ti6a.my.id/aksesoris.php(23): include_once('/home/tiamyid/h...')
+#2 {main}
+  thrown in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 8
+[07-Aug-2023 05:18:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/tiamyid/hijrah.ti6a.my.id/koneksi.php on line 14

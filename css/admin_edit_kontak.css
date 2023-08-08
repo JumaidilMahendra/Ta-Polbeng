@@ -1,0 +1,54 @@
+/* CSS for login page */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* To remove default body margin */
+}
+
+.container {
+    width: 700px;
+    /* Ubah ukuran container sesuai kebutuhan Anda */
+    margin: auto;
+    /* Mengatur margin menjadi auto untuk membuatnya berada di tengah */
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 97%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}

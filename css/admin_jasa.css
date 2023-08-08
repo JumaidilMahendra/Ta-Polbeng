@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 1000px;
+    /* Ubah ukuran container sesuai kebutuhan Anda */
+    margin-left: 250px;
+    /* Mengatur margin menjadi auto untuk membuatnya berada di tengah */
+    background-color: #fffefe;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+/* CSS for responsive table */
+h1 {
+    text-align: center;
+    color: #f2f2f2;
+    background-image: linear-gradient( to left,  rgba(4,29,55,1) -0.1%, rgba(2,67,135,1) 25.1%, rgba(28,133,243,1) 49.6%, rgba(115,181,250,1) 74.5%, rgba(214,239,253,1) 99.3% );
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.aksi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aksi a {
+    padding: 6px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* CSS for responsive "Tambah Data" button */
+.tombol-tambah {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: center;
+    background-color: #f8faf8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient( to left,  rgba(4,29,55,1) -0.1%, rgba(2,67,135,1) 25.1%, rgba(28,133,243,1) 49.6%, rgba(115,181,250,1) 74.5%, rgba(214,239,253,1) 99.3% );
+}
+
+.tombol-tambah:hover {
+    background-color: #45a049;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th,
+    td {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    th:first-child,
+    td:first-child {
+        padding-left: 16px;
+    }
+
+    th:last-child,
+    td:last-child {
+        padding-right: 16px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .tombol-tambah {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
